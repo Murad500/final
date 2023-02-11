@@ -1,0 +1,1186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section{
+    .header{
+        .header1{
+            z-index: 10000;
+        position: relative;
+        padding-left: 320px;
+        
+            .ul1{
+                margin: 0;
+               li{
+                margin: 0;
+                list-style: none;
+                .one{
+                    color: #787878;
+                    font-size: 14px;
+                    border-left: 1px solid #787878;
+                    border-right: 1px solid #787878;
+                    padding: 20px; 
+                    width: 170px;
+                    margin: 0;
+                }
+                .two{
+                    text-decoration: none;
+                    display: inline-block;
+                    color: black;
+                    font-size: 14px;
+                    border-right: 1px solid #787878;
+                    padding: 20px 21px;
+                    width: 120px;
+                }
+                .three{
+                    font-size: 14px;
+        padding: 20px;
+        width: 600px;
+                }
+               } 
+            }
+            .ul2{
+                padding-left: 70px;
+                .li1{
+                    margin: 0;
+                    list-style: none;
+                    position: relative;
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        padding: 17.5px 20px;
+                        border-left: 1px solid #787878;
+                        color: black;
+                        font-size: 17px;
+                        transition: 0.3s ease-in-out;
+                    }
+        
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+        .input{
+        visibility: visible;
+        opacity: 1;
+        }
+                    }
+                    .input{
+                        position: absolute;
+                        opacity: 0;
+                        visibility: hidden;
+                        top: 100%;
+                        right: 0;
+                    }
+                }
+                .li2{
+                    position: relative;
+                    list-style: none;
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        padding: 17.5px 20px;
+                        border-left: 1px solid #787878;
+                        color: black;
+                        font-size: 17px;
+                        transition: 0.3s ease-in-out    ;
+                    }
+        
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+        .ulli1{
+        visibility: visible;
+        opacity: 1;
+        }
+                    }
+                    .ulli1{
+                        position: absolute;
+                        opacity: 0;
+                        width: 200px;
+                        height: 30vh;
+                        background-color: white;
+                        visibility: hidden;
+                        top: 100%;
+                        right: 0;
+        border: 1px solid #787878;
+                        li{
+                            width: 100%;
+                            a{
+                                color: black;
+                                font-size: 15px;
+                                padding: 13px 20px;
+                                border: none;
+                                &:hover{
+                                    color: #F25D66;
+                                }
+                            }
+                        }
+                    }
+                }
+                .li3{
+                    position: relative;
+                    list-style: none;
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        padding: 17.5px 20px;
+                        border-left: 1px solid #787878;
+                        border-right: 1px solid #787878;
+                        color: black;
+                        font-size: 17px;
+                        transition: 0.3s ease-in-out    ;
+                    }
+        
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+                        .shop{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                    .shop{
+                        padding: 20px;
+                        position: absolute;
+                        opacity: 0;
+                        width: 350px;
+                        height: 20vh;
+                        background-color: white;
+                        visibility: hidden;
+                        top: 100%;
+                        right: 0;
+        border: 1px solid #787878;
+                        p{
+                            color: black;
+                        }
+                        h5{
+                            color: black;
+                        }
+                        .h51{
+                            position: relative;
+                            left: 43%;
+                        }
+                    }    
+            }
+        }
+        }
+        .header2{
+            background-color: #E5E5E5;
+            z-index: 9;
+            .boxes{
+                height: 10vh;
+                width: 100%;
+                .logo{
+                    position: absolute;
+                    top: 0.3%;
+                    left: 4%;
+                    z-index: 99;
+                    a{
+                        img{
+                            background-color: white;
+                        }
+                    }
+                }
+                .box{
+                    position: absolute;
+                    top: 12.5%;
+                    left: 25%;
+                    padding-left: 40px;
+                    z-index: 999;
+                    .home{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: #161616;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 0 25px;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #f25d66;
+                            }
+                        }
+        
+                        position: relative;
+                        &:hover{
+                            .home1{
+                                opacity: 1;
+                                visibility: visible;
+                                transform: perspective(300px) rotateX(0deg);
+                            }
+                        }
+                        .home1{
+                            position: absolute;
+                            background-color: black;
+                            top:185%;
+                            left: 0%;
+                            width: 170px;
+                            height: 20vh;
+                            transition: 0.3s ease-in-out;
+                            transform: perspective(300px) rotateX(-18deg);
+                            opacity: 0;
+                            visibility: hidden;
+        
+                            li {
+                                width: 100%;
+                                margin: auto;
+        
+                                a {
+                                    display: inline-block;
+                                    padding: 20px 35px;
+                                    font-size: 15px;
+                                    color: white;
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .shop{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: #161616;
+                            transition: 0.3s ease-in-out;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 0 25px;
+                        }
+        
+                        position: relative;
+                        &:hover{
+                            a{
+                                color: #f25d66;
+                            }
+                            .box1{
+                                opacity: 1;
+                                visibility: visible;
+                                transform: perspective(300px) rotateX(0deg);
+                            }
+                        }
+                        .box1{
+                            position: absolute;
+                            background-color: black;
+                            top: 185%;
+                            left: -80%;
+                            opacity: 0;
+                            visibility: hidden;
+                            width: 600px;
+                            height: 42vh;
+                            transition: 0.3s ease-in-out;
+                            transform: perspective(300px) rotateX(-18deg);
+        padding: 20px 25px 0 0;
+                            .shop1{
+                                h5{
+                                    a{
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        color: white;
+                                        padding-bottom: 10px;
+                                        font-size: 16px;
+                                        
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                                li{
+                                    list-style: none;
+                                    a{
+                                        padding-top: 10px;
+                                        display: inline-block;
+                                        color: white;
+                                        font-size: 15px;
+                                        font-weight: 300;
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                            }
+                            .shop2{
+                                h5{
+                                    a{
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        color: white;
+                                        padding-bottom: 10px;
+                                        font-size: 16px;
+        
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                                li{
+                                    list-style: none;
+                                    a{
+                                        padding-top: 10px;
+                                        display: inline-block;
+                                        color: white;
+                                        font-size: 15px;
+                                        font-weight: 300;
+        
+                                        &:hover{
+                                            color: #F25D66;
+                                        }
+                                    }
+                                }
+                            }
+                            .shop3{
+                                h5{
+                                    a{
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        color: white;
+                                        padding-bottom: 10px;
+                                        font-size: 16px;
+        
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                                li{
+                                    list-style: none;
+                                    a{
+                                        padding-top: 10px;
+                                        display: inline-block;
+                                        color: white;
+                                        font-size: 15px;
+                                        font-weight: 300;
+        
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                }
+                .blog{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #161616;
+                        transition: 0.3s ease-in-out;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 0 25px;
+                    }
+        
+                    position: relative;
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+                        .box2{
+                            opacity: 1;
+                            visibility: visible;
+                            transform: perspective(300px) rotateX(0deg);
+                        }
+                    }
+                    .box2{
+                        position: absolute;
+                        background-color: black;
+                        top: 185%;
+                        left: 0;
+                        opacity: 0;
+                        visibility: hidden;
+                        width: 600px;
+                        height: 35vh;
+                        transition: 0.3s ease-in-out;
+                        transform: perspective(300px) rotateX(-18deg);
+        padding: 20px 25px 0 0;
+                        .blog1{
+                            h5{
+                                a{
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    color: white;
+                                    padding-bottom: 10px;
+                                    font-size: 16px;
+                                    
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    padding-top: 10px;
+                                    display: inline-block;
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 300;
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                        }
+                        .blog2{
+                            h5{
+                                a{
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    color: white;
+                                    padding-bottom: 10px;
+                                    font-size: 16px;
+        
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    padding-top: 10px;
+                                    display: inline-block;
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 300;
+        
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                        }
+                        .blog3{
+                            h5{
+                                a{
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    color: white;
+                                    padding-bottom: 10px;
+                                    font-size: 16px;
+        
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    padding-top: 10px;
+                                    display: inline-block;
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 300;
+        
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                        }
+                    }
+            }
+                .pages{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #f25d66;
+                        transition: 0.3s ease-in-out;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 0 25px;
+                    }
+                    position: relative;
+                    &:hover{
+                        a{
+                            color: #F25D66;
+                        }
+                        .pages1{
+                            transform: perspective(300px) rotateX(0deg);
+                            opacity: 1;
+                            visibility: visible;
+                
+                        }
+                    }
+                    .pages1{
+                        position: absolute;
+                        background-color: black;
+                        top: 185%;
+                        opacity: 0;
+                        visibility: hidden;
+                        width: 200px;
+                        height: 25vh;
+                        transition: 0.3s ease-in-out;
+                        transform: perspective(300px) rotateX(-18deg);
+                        
+                        li{
+                            width: 100%;
+                            &:nth-child(3){
+                                a{
+                                    color: #f25d66;
+                                }
+                            }
+                            a{
+                                display: inline-block;
+                                padding: 8px 20px;
+                                font-size: 15px;
+                                color: white;
+                                &:hover{
+                                    color: #f25d66;
+                                }
+                            }
+                        }
+                
+                    }
+                }
+                .portfolio{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #161616;
+                        transition: 0.3s ease-in-out;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 0 25px;
+                    }
+                    position: relative;
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+                        .portfolio1{
+                            transform: perspective(300px) rotateX(0deg);
+                            opacity: 1;
+                            visibility: visible;
+                
+                        }
+                    }
+                    .portfolio1{
+                        position: absolute;
+                        background-color: black;
+                        top:185%;
+                        left: 0%;
+                        width: 200px;
+                        height: 20vh;
+                        transition: 0.3s ease-in-out;
+                        transform: perspective(300px) rotateX(-18deg);
+                        opacity: 0;
+                        visibility: hidden;
+        
+                        li {
+                            width: 100%;
+                            margin: auto;
+        
+                            a {
+                                display: inline-block;
+                                padding: 20px 35px;
+                                font-size: 15px;
+                                color: white;
+                                &:hover{
+                                    color: #f25d66;
+                                }
+                            }
+                        }
+                    }
+                }
+                .new{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #161616;
+                        transition: 0.3s ease-in-out;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 0 25px;
+                    }
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+                    }
+                }
+            }
+        }
+        }
+    }
+    .boxes{
+        height: 100vh;
+        .our{
+            padding: 80px 0;
+            h3{
+                font-size: 25px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 350;
+                color: #333333;
+            }
+            p{
+                color: #6A6A6A;
+                font-size: 13.5px;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                i{
+                    font-size: 20px;
+                    padding: 10px;
+                    border-radius: 8mm;
+                    background-color: #161616;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        background-color: #F25D66;
+                    }
+                }
+            }
+        }
+        .contact{
+            padding: 80px 0;
+            h3{
+                font-size: 25px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 350;
+                color: #333333;
+            }
+            .ad{
+                input{
+                    padding:10px 15px;
+                    width: 100%;
+                    height: 5.4vh;
+                    margin: 11px 0;
+                }
+            }
+            .subject{
+                input{
+                    padding:10px 15px;
+                    width: 100%;
+                    height: 5.4vh;
+                    margin: 11px 0;
+                }
+            }
+            .message{
+                textarea{
+                    width: 100%;
+                    padding: 10px 15px;
+                }
+            }
+            a{
+                text-decoration: none;
+                background-color: #F25D66;
+                padding: 10px 20px;
+                color: white;
+                font-weight: 640;
+                position: absolute;
+                bottom: 0;
+                right: 7.7%;
+                transition: 0.3s ease-in-out;
+
+                &:hover{
+                    background-color: #787878;
+                }
+            }
+        }
+    }
+    .footer{
+        .footer2{
+            width: 99.1%;
+            .two{
+                height: 50.6vh;
+                padding: 20px 30px;
+                background-color: #1D1D1D;
+                .our{
+                    hr{
+                        height: 2px;
+                        background-color: #A8A8A8;
+                    }
+                    h5{
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #A8A8A8;
+                        padding-left: 10px;
+                    }
+                    ul{
+                        margin-top: 20px;
+                        li{
+                            color: #A8A8A8;
+                            a{
+                                display: inline-block;
+                                color: #A8A8A8;
+                                text-decoration: none;
+                                transition: 0.3s ease-in-out;
+                                &:hover{
+                                    color: #f25d66;
+                                }
+                            }
+                        }
+                    }
+                }
+                .information{
+                    hr{
+                        height: 2px;
+                        background-color: #A8A8A8;
+                    }
+                    h5{
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #A8A8A8;
+                        padding-left: 10px;
+                    }
+                    ul{
+                        margin-top: 20px;
+                        li{
+                            color: #A8A8A8;
+                            a{
+                                display: inline-block;
+                                color: #A8A8A8;
+                                text-decoration: none;
+                                transition: 0.3s ease-in-out;
+                                &:hover{
+                                    color: #f25d66;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .one{
+                padding: 20px 0 0 90px;
+                background-color: #232222;
+                .contact{
+                    .icon{
+                        margin-top: 20px;
+                        .icon1{
+                            i{
+                                height: 4.6vh;
+                                padding: 7px 12px 5px 12px;
+                                color: white;
+                                background-color: #A8A8A8;
+                            }
+                            p{
+                                padding: 3px 10px;
+                                color: #A8A8A8;
+                                width: 100%;
+                                background-color: #383838;
+                            }
+                        }
+                        .icon2{
+                            i{
+                                height: 4.6vh;
+                                padding: 7px 10px 5px 10px;
+                                color: white;
+                                background-color: #A8A8A8;
+                            }
+                            p{
+                                padding: 3px 10px;
+                                color: #A8A8A8;
+                                width: 100%;
+                                background-color: #383838;
+                            }
+                        }
+                        .icon3{
+                            i{
+                                height: 4.6vh;
+                                padding: 7px 10px 5px 10px;
+                                color: white;
+                                background-color: #A8A8A8;
+                            }
+                            p{
+                                padding: 3px 10px;
+                                width: 100%;
+                                color: #A8A8A8;
+                                background-color: #383838;
+                            }
+                        }
+                    }
+                }
+                .latest{
+                    .tweets{
+                        padding-top: 20px;
+                    }
+                    hr{
+                        width: 90%;
+                        height: 2px;
+                        background-color: #A8A8A8;
+                    }
+                    h5{
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #A8A8A8;
+                        padding-left: 10px;
+                    }
+                    .p1{
+                        i{
+                            color: #A8A8A8;
+                            font-size: 20px;
+                        }
+                    }
+                    .p2{
+                        p{
+                            color: #A8A8A8;
+                            font-size: 14px;
+                            a{
+                                display: inline-block;
+                                text-decoration: none;
+                                color: #A8A8A8;
+                                transition: 0.3s ease-in-out;
+                                &:hover{
+                                    color: #f25d66;
+                                }
+                            }
+                            .a1{
+                                    text-decoration: none;
+                                    display: inline-block;
+                                    font-size: 11px;
+                                    color: #f25d66;
+                                    transition: 0.3s ease-in-out;
+                                    &:hover{
+                                        border-bottom: 1px solid #A8A8A8;
+                                    }
+                            }
+                            span{
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    .son{
+        background-color: #141414;
+        height: 15vh;
+        padding: 40px 0;
+        width: 100%;
+        .copy{
+            p{
+                color: #A8A8A8;
+                a{
+                    text-decoration: none;
+                    color: #f25d66;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        border-bottom: 1px solid #A8A8A8;
+                    }
+                }
+            }
+        }
+        .cart{
+    padding-left: 200px;
+        }
+    }
+    }
+}
+
+
+@media (max-width:576px){
+
+    #section{
+        width: 100%;
+        .header{
+            width: 100%;
+            .header1{
+    
+                position: relative;
+                width: 50%;
+                z-index: 999;
+                right: 90%;
+                .ul1{
+                    position: relative;
+                    left: 0;
+                    width: 50%;
+                    li{
+                        .one{
+                            font-size: 10px;
+                            padding: 10px;
+                            width: 110px;
+                        }
+                        .two{
+                            font-size: 10px;
+                            padding: 10px;
+                            width: 81px;
+                        }
+                        .three{
+                            display: none;
+                        }
+                    }
+                }
+                .ul2{
+                    position: absolute;
+                    left: 170%;
+                    .li1{
+                        position: relative;
+                        list-style: none;
+                        a{
+                            display: inline-block;
+                            text-decoration: none;
+                            padding: 10px;
+                            border-left: 1px solid #787878;
+                            color: black;
+                            font-size: 12px;
+                            transition: 0.3s ease-in-out    ;
+                        }
+                    
+                        &:hover{
+                            a{
+                                color: #f25d66;
+                            }
+                    .input{
+                    visibility: visible;
+                    opacity: 1;
+                    }
+                        }
+                        .input{
+                            position: absolute;
+                            opacity: 0;
+                            font-size: 12px;
+                            visibility: hidden;
+                            top: 100%;
+                            right: 0;
+                        }
+                    }
+                    .li2{
+                        position: relative;
+                        list-style: none;
+                        a{
+                            display: inline-block;
+                            text-decoration: none;
+                            padding:10px;
+                            border-left: 1px solid #787878;
+                            color: black;
+                            font-size: 12px;
+                            transition: 0.3s ease-in-out    ;
+                        }
+                    
+                        &:hover{
+                            a{
+                                color: #f25d66;
+                            }
+                    .ulli1{
+                    visibility: visible;
+                    opacity: 1;
+                    }
+                        }
+                        .ulli1{
+                            position: absolute;
+                            opacity: 0;
+                            width: 130px;
+                            height: 16vh;
+                            background-color: white;
+                            visibility: hidden;
+                            top: 100%;
+                            right: 0;
+                    border: 1px solid #787878;
+                            li{
+                                width: 100%;
+                                a{
+                                    color: black;
+                                    font-size: 12px;
+                                    padding: 7px 20px;
+                                    border: none;
+                                    &:hover{
+                                        color: #F25D66;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .li3{
+                        position: relative;
+                        list-style: none;
+                        a{
+                            display: inline-block;
+                            text-decoration: none;
+                            padding:10px;
+                            border-left: 1px solid #787878;
+                            border-right: 1px solid #787878;
+                            color: black;
+                            font-size: 12px;
+                            transition: 0.3s ease-in-out    ;
+                        }
+            
+                        &:hover{
+                            a{
+                                color: #f25d66;
+                            }
+                            .shop{
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                        .shop{
+                            padding: 10px;
+                            position: absolute;
+                            opacity: 0;
+                            width: 240px;
+                            height: 12vh;
+                            background-color: white;
+                            visibility: hidden;
+                            top: 100%;
+                            right: 0;
+            border: 1px solid #787878;
+                            p{
+                                color: black;
+                                font-size: 12px;
+                            }
+                            h5{
+                                color: black;
+                                font-size: 13px;
+                            }
+                            .h51{
+                                position: relative;
+                                left: 43%;
+                                font-size: 13px;
+                            }
+                        }    
+                }
+                }
+            }
+            .header2{
+                .boxes{
+                    position: absolute;
+                    top: 10%;
+                    .logo{
+                        margin-top: 10px;
+                        width: 94.1%;
+                        position: relative;
+                        left: 0;
+                        background-color: #a9a9a9;
+                        a{
+                            display: inline-block;
+                            text-align: center;
+                            img{
+                                width: 70%;
+                                margin-left: 40px;
+                                background-color: #a9a9a9;
+                            }
+                        }
+                    }
+                    .box{
+                        li{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .adi{
+                height: 57vh;
+            }
+    
+        }
+        
+        .boxes{
+            height: 130vh;
+            .our{
+                position: absolute;
+                top: 20%;
+                padding-left: 30px;
+            }
+            .contact{
+                position: absolute;
+                top: 62%;
+                padding: 0 30px;
+                .message{
+                    margin-top: 10px;
+                }
+                .aa{
+                    position: absolute;
+                    right: 3.6%;
+                    top: 115%;
+                    width: 50%;
+                }
+            }
+        }
+
+        .footer{
+            width: 100%;
+            position: relative;
+            .footer1{
+                width: 96.1%;
+                .one{
+        padding: 10px 40px;
+                }
+                .two{
+                    padding: 10px 40px;
+                }
+            }
+            .footer2{
+                width: 96.9%;
+                .one{
+                    padding: 20px 45px;
+                    .contact{
+                        text-align: center;
+                        .icon{
+                            .icon1{
+                                i{
+                                    height: 3.5vh;
+                                    padding: 7px 12px 7px 12px;
+                                    color: white;
+                                    background-color: #A8A8A8;
+                                }
+                            }
+                            .icon2{
+                                i{
+                                    height: 3.5vh;
+                                    padding: 7px 10px 7px 10px;
+                                    color: white;
+                                    background-color: #A8A8A8;
+                                }
+                            }
+                            .icon3{
+                                i{
+                                    height: 3.5vh;
+                                    padding: 7px 10px 7px 10px;
+                                    color: white;
+                                    background-color: #A8A8A8;
+                                }
+                            }
+                        }
+                    }
+                    &:first-child{
+                        hr{
+                            width: 100%;
+                        }
+                    }
+                    .latest{
+                        .tweets{
+                            padding-left: 10px;
+                        }
+                    }
+                }
+                .two{
+                    padding: 20px 40px;
+                }
+            }
+            .bos{
+                background-color: #1D1D1D;
+                height: 6vh;
+                width: 100%;
+            }
+            .son{
+                width: 100%;
+                height: 15vh;
+                padding-top: 20px;
+                .copy{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+                .cart{
+                    img{
+                        position: absolute;
+                        left: 11%;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .sonn{
+                height: 35vh;
+            }
+        }
+    }
+}

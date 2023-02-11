@@ -1,0 +1,787 @@
+#portfolio {
+
+    .header{
+        margin-bottom: 20px;
+        .header1{
+            z-index: 10000;
+        position: relative;
+        padding-left: 320px;
+        
+            .ul1{
+                margin: 0;
+               li{
+                margin: 0;
+                list-style: none;
+                .one{
+                    color: #787878;
+                    font-size: 14px;
+                    border-left: 1px solid #787878;
+                    border-right: 1px solid #787878;
+                    padding: 20px; 
+                    width: 170px;
+                    margin: 0;
+                }
+                .two{
+                    text-decoration: none;
+                    display: inline-block;
+                    color: black;
+                    font-size: 14px;
+                    border-right: 1px solid #787878;
+                    padding: 20px 21px;
+                    width: 120px;
+                }
+                .three{
+                    font-size: 14px;
+        padding: 20px;
+        width: 600px;
+                }
+               } 
+            }
+            .ul2{
+                padding-left: 70px;
+                .li1{
+                    margin: 0;
+                    list-style: none;
+                    position: relative;
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        padding: 17.5px 20px;
+                        border-left: 1px solid #787878;
+                        color: black;
+                        font-size: 17px;
+                        transition: 0.3s ease-in-out;
+                    }
+        
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+        .input{
+        visibility: visible;
+        opacity: 1;
+        }
+                    }
+                    .input{
+                        position: absolute;
+                        opacity: 0;
+                        visibility: hidden;
+                        top: 100%;
+                        right: 0;
+                    }
+                }
+                .li2{
+                    position: relative;
+                    list-style: none;
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        padding: 17.5px 20px;
+                        border-left: 1px solid #787878;
+                        color: black;
+                        font-size: 17px;
+                        transition: 0.3s ease-in-out    ;
+                    }
+        
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+        .ulli1{
+        visibility: visible;
+        opacity: 1;
+        }
+                    }
+                    .ulli1{
+                        position: absolute;
+                        opacity: 0;
+                        width: 200px;
+                        height: 30vh;
+                        background-color: white;
+                        visibility: hidden;
+                        top: 100%;
+                        right: 0;
+        border: 1px solid #787878;
+                        li{
+                            width: 100%;
+                            a{
+                                color: black;
+                                font-size: 15px;
+                                padding: 13px 20px;
+                                border: none;
+                                &:hover{
+                                    color: #F25D66;
+                                }
+                            }
+                        }
+                    }
+                }
+                .li3{
+                    position: relative;
+                    list-style: none;
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        padding: 17.5px 20px;
+                        border-left: 1px solid #787878;
+                        border-right: 1px solid #787878;
+                        color: black;
+                        font-size: 17px;
+                        transition: 0.3s ease-in-out    ;
+                    }
+        
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+                        .shop{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                    .shop{
+                        padding: 20px;
+                        position: absolute;
+                        opacity: 0;
+                        width: 350px;
+                        height: 20vh;
+                        background-color: white;
+                        visibility: hidden;
+                        top: 100%;
+                        right: 0;
+        border: 1px solid #787878;
+                        p{
+                            color: black;
+                        }
+                        h5{
+                            color: black;
+                        }
+                        .h51{
+                            position: relative;
+                            left: 43%;
+                        }
+                    }    
+            }
+        }
+        }
+        .header2{
+            background-color: #E5E5E5;
+            z-index: 9;
+            .boxes{
+                height: 10vh;
+                width: 100%;
+                .logo{
+                    position: absolute;
+                    top: -1%;
+                    left: 4%;
+                    z-index: 99;
+                    a{
+                        img{
+                            background-color: white;
+                        }
+                    }
+                }
+                .box{
+                    position: absolute;
+                    top: 12.5%;
+                    left: 25%;
+                    padding-left: 40px;
+                    z-index: 999;
+                    .home{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: #161616;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 0 25px;
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                color: #f25d66;
+                            }
+                        }
+        
+                        position: relative;
+                        &:hover{
+                            .home1{
+                                opacity: 1;
+                                visibility: visible;
+                                transform: perspective(300px) rotateX(0deg);
+                            }
+                        }
+                        .home1{
+                            position: absolute;
+                            background-color: black;
+                            top:185%;
+                            left: 0%;
+                            width: 170px;
+                            height: 20vh;
+                            transition: 0.3s ease-in-out;
+                            transform: perspective(300px) rotateX(-18deg);
+                            opacity: 0;
+                            visibility: hidden;
+        
+                            li {
+                                width: 100%;
+                                margin: auto;
+        
+                                a {
+                                    display: inline-block;
+                                    padding: 20px 35px;
+                                    font-size: 15px;
+                                    color: white;
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .shop{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: #161616;
+                            transition: 0.3s ease-in-out;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 600;
+                            padding: 0 25px;
+                        }
+        
+                        position: relative;
+                        &:hover{
+                            a{
+                                color: #f25d66;
+                            }
+                            .box1{
+                                opacity: 1;
+                                visibility: visible;
+                                transform: perspective(300px) rotateX(0deg);
+                            }
+                        }
+                        .box1{
+                            position: absolute;
+                            background-color: black;
+                            top: 185%;
+                            left: -80%;
+                            opacity: 0;
+                            visibility: hidden;
+                            width: 600px;
+                            height: 42vh;
+                            transition: 0.3s ease-in-out;
+                            transform: perspective(300px) rotateX(-18deg);
+        padding: 20px 25px 0 0;
+                            .shop1{
+                                h5{
+                                    a{
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        color: white;
+                                        padding-bottom: 10px;
+                                        font-size: 16px;
+                                        
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                                li{
+                                    list-style: none;
+                                    a{
+                                        padding-top: 10px;
+                                        display: inline-block;
+                                        color: white;
+                                        font-size: 15px;
+                                        font-weight: 300;
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                            }
+                            .shop2{
+                                h5{
+                                    a{
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        color: white;
+                                        padding-bottom: 10px;
+                                        font-size: 16px;
+        
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                                li{
+                                    list-style: none;
+                                    a{
+                                        padding-top: 10px;
+                                        display: inline-block;
+                                        color: white;
+                                        font-size: 15px;
+                                        font-weight: 300;
+        
+                                        &:hover{
+                                            color: #F25D66;
+                                        }
+                                    }
+                                }
+                            }
+                            .shop3{
+                                h5{
+                                    a{
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        color: white;
+                                        padding-bottom: 10px;
+                                        font-size: 16px;
+        
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                                li{
+                                    list-style: none;
+                                    a{
+                                        padding-top: 10px;
+                                        display: inline-block;
+                                        color: white;
+                                        font-size: 15px;
+                                        font-weight: 300;
+        
+                                        &:hover{
+                                            color: #f25d66;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                }
+                .blog{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #161616;
+                        transition: 0.3s ease-in-out;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 0 25px;
+                    }
+        
+                    position: relative;
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+                        .box2{
+                            opacity: 1;
+                            visibility: visible;
+                            transform: perspective(300px) rotateX(0deg);
+                        }
+                    }
+                    .box2{
+                        position: absolute;
+                        background-color: black;
+                        top: 185%;
+                        left: 0;
+                        opacity: 0;
+                        visibility: hidden;
+                        width: 600px;
+                        height: 35vh;
+                        transition: 0.3s ease-in-out;
+                        transform: perspective(300px) rotateX(-18deg);
+        padding: 20px 25px 0 0;
+                        .blog1{
+                            h5{
+                                a{
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    color: white;
+                                    padding-bottom: 10px;
+                                    font-size: 16px;
+                                    
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    padding-top: 10px;
+                                    display: inline-block;
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 300;
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                        }
+                        .blog2{
+                            h5{
+                                a{
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    color: white;
+                                    padding-bottom: 10px;
+                                    font-size: 16px;
+        
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    padding-top: 10px;
+                                    display: inline-block;
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 300;
+        
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                        }
+                        .blog3{
+                            h5{
+                                a{
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    color: white;
+                                    padding-bottom: 10px;
+                                    font-size: 16px;
+        
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    padding-top: 10px;
+                                    display: inline-block;
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 300;
+        
+                                    &:hover{
+                                        color: #f25d66;
+                                    }
+                                }
+                            }
+                        }
+                    }
+            }
+                .pages{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #f25d66;
+                        transition: 0.3s ease-in-out;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 0 25px;
+                    }
+                    position: relative;
+                    &:hover{
+                        a{
+                            color: #F25D66;
+                        }
+                        .pages1{
+                            transform: perspective(300px) rotateX(0deg);
+                            opacity: 1;
+                            visibility: visible;
+                
+                        }
+                    }
+                    .pages1{
+                        position: absolute;
+                        background-color: black;
+                        top: 185%;
+                        opacity: 0;
+                        visibility: hidden;
+                        width: 200px;
+                        height: 25vh;
+                        transition: 0.3s ease-in-out;
+                        transform: perspective(300px) rotateX(-18deg);
+                        
+                        li{
+                            width: 100%;
+                            &:first-child{
+                                a{
+                                    color: #f25d66;
+                                }
+                            }
+                            a{
+                                display: inline-block;
+                                padding: 8px 20px;
+                                font-size: 15px;
+                                color: white;
+                                &:hover{
+                                    color: #f25d66;
+                                }
+                            }
+                        }
+                
+                    }
+                }
+                .portfolio{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #161616;
+                        transition: 0.3s ease-in-out;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 0 25px;
+                    }
+                    position: relative;
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+                        .portfolio1{
+                            transform: perspective(300px) rotateX(0deg);
+                            opacity: 1;
+                            visibility: visible;
+                
+                        }
+                    }
+                    .portfolio1{
+                        position: absolute;
+                        background-color: black;
+                        top:185%;
+                        left: 0%;
+                        width: 200px;
+                        height: 20vh;
+                        transition: 0.3s ease-in-out;
+                        transform: perspective(300px) rotateX(-18deg);
+                        opacity: 0;
+                        visibility: hidden;
+        
+                        li {
+                            width: 100%;
+                            margin: auto;
+        
+                            a {
+                                display: inline-block;
+                                padding: 20px 35px;
+                                font-size: 15px;
+                                color: white;
+                                &:hover{
+                                    color: #f25d66;
+                                }
+                            }
+                        }
+                    }
+                }
+                .new{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #161616;
+                        transition: 0.3s ease-in-out;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 600;
+                        padding: 0 25px;
+                    }
+                    &:hover{
+                        a{
+                            color: #f25d66;
+                        }
+                    }
+                }
+            }
+        }
+        }
+    }
+
+
+    h1 {
+        font-size: 55px;
+        font-weight: 900;
+        margin: 0;
+        padding: 0 0 15px;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1.35;
+        position: relative;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    }
+
+    hr {
+        width: 60px;
+        color: red;
+        height: 2px;
+        margin: auto;
+    }
+
+    .buttons {
+        width: 60%;
+        display: flex;
+        margin: 50px auto;
+
+        justify-content: space-evenly;
+
+        button {
+            padding: 5px 20px;
+            border: none;
+            font-size: 13px;
+            height: 40px;
+            color: #333333;
+            font-weight: 400;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            transition: 0.3s ease-in;
+
+            &:hover {
+                color: #F25862;
+            }
+        }
+    }
+}
+
+// portfolio finished\\
+// ============================\\
+#lorem {
+    padding-bottom: 100px;
+
+    .lorem-box,
+    .lorem-box1,
+    .lorem-box2,
+    .lorem-box3,
+    .lorem-box4,
+    .lorem-box5,
+    .lorem-box6,
+    .lorem-box7,
+    .lorem-box8 {
+
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 40px;
+        transition: 0, 5s ease-in-out;
+
+        img {
+            transition: 0.5s ease-in-out;
+        }
+
+
+        &:hover {
+            box-shadow: 5px 20px 30px gray;
+
+            img {
+                transform: scale(1.1);
+
+            }
+
+            &::after {
+                content: 'Augue lorem lacinia';
+                position: absolute;
+                bottom: 30px;
+                left: 20px;
+                color: rgb(53, 53, 53);
+                font-size: 20px;
+                font-weight: 400;
+                font-style: italic;
+                line-height: 20px;
+
+            }
+
+        }
+
+
+    }
+
+    hr {
+        width: 20%;
+        height: 1.5px;
+        margin: auto;
+        color: #F25861;
+    }
+
+    .aba {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+
+
+        span {
+            display: inline-block;
+            padding: 10px;
+
+        }
+
+        i {
+            padding: 10px;
+            margin-top: 2px;
+
+        }
+    }
+
+}
+
+// lorem finished\\
+// ------------------------\\
+@media(max-width:576px) {
+    #portfolio {
+        .buttons {
+            button {
+                font-size: 10px;
+                padding: 5px 15px;
+                border: 1px solid rgb(135, 121, 121);
+            }
+        }
+    }
+
+    #lorem {
+        margin-bottom: 70px;
+    }
+}
+
+@media(min-width:576px) and (max-width:778px) {
+    #portfolio {
+        .buttons {
+            width: 100%;
+
+
+            button {
+                font-size: 15px;
+                padding: 30px 20px;
+                display: flex;
+                align-items: center;
+                border: 1px solid rgb(135, 121, 121);
+
+            }
+        }
+    }
+}
+
+@media(min-width:778px) and (max-width:992px) {
+    #portfolio {
+        .buttons {
+            width: 100%;
+
+            button {
+                font-size: 18px;
+                padding: 30px 20px;
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+                
+
+            }
+        }
+    }
+}
